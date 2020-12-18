@@ -13,6 +13,8 @@ module:
   comment: 0
   config: 0
   config_filter: 0
+  config_override_warn: 0
+  config_overview: 0
   config_split: 0
   config_update: 0
   config_update_ui: 0
