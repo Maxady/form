@@ -5,12 +5,13 @@ dependencies: {  }
 id: prod
 label: Prod
 description: ''
-folder: ../config/sync/prod
+folder: ../config/prod/sync
 module: {  }
 theme: {  }
 blacklist:
   - system.site
-graylist: {  }
+graylist:
+  - system.site
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0
