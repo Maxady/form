@@ -1,0 +1,15 @@
+uuid: f5408b44-e827-4efe-8c31-dc2fcf4d7ae9
+langcode: en
+status: true
+dependencies: {  }
+id: article
+label: Article
+channel_entity_type: node
+channel_bundle: article
+channel_langcode: und
+channel_filters: null
+channel_groups: null
+channel_sorts: {  }
+channel_searches: null
+authorized_users:
+  071f0e89-d1bd-490b-a5bd-f49870f901ca: 071f0e89-d1bd-490b-a5bd-f49870f901ca

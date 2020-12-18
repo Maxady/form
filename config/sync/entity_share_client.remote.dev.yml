@@ -1,0 +1,13 @@
+uuid: 8ffb02a0-7aac-43ba-8104-29559af400ac
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: dev
+url: 'http://formation.mk'
+auth:
+  pid: basic_auth
+  uuid: 62babbf5-df73-4259-8604-22f959f827c8
+  data:
+    credential_provider: entity_share
+    storage_key: 62babbf5-df73-4259-8604-22f959f827c8
