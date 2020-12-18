@@ -1,0 +1,39 @@
+uuid: 6d1eaef4-f827-41b6-b7ea-a26dc1704f5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bb.body
+    - field.field.node.bb.field_image_bb
+    - node.type.bb
+  module:
+    - image
+    - text
+    - user
+id: node.bb.default
+targetEntityType: node
+bundle: bb
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_bb:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
